@@ -1,4 +1,4 @@
-const bot = require('../telegram/telegram_bot.js/index.js');
+const bot = require('./bot.js/index.js.js');
 const coin =require('./coins.js');
 
 bot.onText(/[p,P]rice (.+)/, (msg, match) => {
