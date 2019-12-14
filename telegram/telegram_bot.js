@@ -1,5 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
-const bot = new TelegramBot(token, { polling: true });
+const config = require('../config')
+
+const bot = new TelegramBot(config.telegram_api_token, { polling: true });
 bot.isAuthenticated = true;
 
 bot.on('message', (msg) => {
@@ -15,4 +17,4 @@ bot.on('polling_error', (error) => {
     console.error('Error :', error.message);  // => 'EFATAL'
 });
 
-export default bot;
+module.exports = bot
