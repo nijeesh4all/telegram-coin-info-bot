@@ -24,9 +24,10 @@
   "homepage": "https://github.com/nijeesh4all/telegram-coin-info-bot#readme",
   "dependencies": {
     "coinr": "^1.2.0",
-    "node-telegram-bot-api": "^0.40.0"
+    "node-telegram-bot-api": "^0.40.0",
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
-    "dotenv": "^8.2.0"
+   
   }
 }
