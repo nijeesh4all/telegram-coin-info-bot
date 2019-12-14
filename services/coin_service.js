@@ -11,6 +11,16 @@ async function convert(from, to){
     }
 }
 
+async function info(ticker){
+    return await coin.getInfo(ticker)
+}
+
+async function price(ticker){
+    return await coin.getPrice(ticker)
+}
+
+
+
 function parse_amount_and_ticker(string = ''){
     var amount = string.match(/\d+/g) || [1] ;
     var ticker =  string.match(/[a-zA-Z]+/g) || ['BTC'] ;
@@ -24,5 +34,7 @@ function parse_amount_and_ticker(string = ''){
 
 
 module.exports = {
-    convert
+    convert,
+    info,
+    price
 }
