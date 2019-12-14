@@ -1,4 +1,4 @@
-const telegram = require('./bot')
+const bot = require('./bot')
 
 
-module.exports = telegram;
+module.exports = bot;
