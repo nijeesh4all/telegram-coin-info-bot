@@ -1,5 +1,6 @@
 
 [![open in telegram](https://itsdcdn.com/resources/services/logowide/340/201809161837/telegram.png)](https://t.me/Thecryptoinfobot)
+
 This is the code for an Cpryto currency info Telegram bot I've built.
 
 # Installation and local launch
