@@ -24,6 +24,16 @@ Also, please, consider looking at `.env.example`.
 1. GET info about diffrent crypto currencies
 2. Convert one crypto to another
 
+# DOCKER
+
+you can build an docker image by running 
+
+```
+docker build -t telegram_bot
+docker run --env-file .env 
+```
+
+
 # Future Milestones
 
 1. Add a watcher for mornioring etherium accounts
