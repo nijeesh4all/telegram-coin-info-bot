@@ -16,6 +16,7 @@ And you should be good to go! Feel free to fork and submit pull requests. Thanks
 # Environment variables
 
 - `TELEGRAM_API_KEY` — Telegram bot token
+- `TELEGRAM_BOT_NAME` - Telegram bot name for redirecting it to the telegram url
 
 Also, please, consider looking at `.env.example`.
 
